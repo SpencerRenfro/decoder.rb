@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+}
+
+.name {
+  font-weight: bold;
+}
+ul li{
+
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  list-style-type: none;
+  display: inline;
+  padding: 1em;
+}
+
+.nav-items li {
+  display: inline;
+  padding: 5px 15px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+h1{
+  margin: 25px;
+  padding: 5em;
+}
+
+body{
+  background: url("./images/background.jpeg") no-repeat center;
+  background-size: cover;
+  size: 100vh;
+}

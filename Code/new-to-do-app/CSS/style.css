@@ -1,0 +1,131 @@
+
+body {
+  padding-top: 15px;
+}
+h1 {
+    color: black;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #52bab3;
+  margin: 0 auto;
+  height: 25vh;
+  border-radius: 25px 25px 0 0;
+}
+
+.group {
+    display: flex;
+    justify-content: center; 
+    padding-top: 50px;
+  }
+  
+  #headline {
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  header h1 {
+    font-size: 2.5em;
+    line-height: 1;
+    color: #fff;
+    margin: 0 0 0.65em;
+}
+
+
+
+
+
+body {
+  background-color: gray;
+}
+
+body * {
+  font-family: 'Avenir';
+}
+
+
+/* css for To-DO-Body */
+
+#paper {
+  /* margin: 0 auto;
+  display: flex;
+  background-color: white; 
+  height: 65vh;
+  width: 80%;
+  justify-content: center;
+  align-self: flex-start;
+  flex-direction: row;  */
+  /* padding: 0.65em 2em 2em; */
+  background-color: white; 
+  min-height: 150px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: flex-start;
+  border-radius: 0 0 5px 5px;
+  
+  
+}
+
+
+ul {
+/* padding: 1.15em 0.5em;
+display: flex;
+border-bottom: solid 1px #dedede;
+list-style: none;
+background-color: gray; */
+font-size: 1.15em;
+/* padding: 0;
+margin: 0 0 1.15em; */
+list-style: none;
+width: 60%;
+padding: 0;
+}
+
+li {
+  /* padding: 0;
+  margin: 0 0 1.15em; */
+  padding-right: 1.15em;
+  padding-left: 1.15em;
+  padding-top: 2.15em;
+  display: flex;
+  /* align-self: center; */
+  border-bottom: solid 1px #dedede;
+  
+ 
+}
+
+
+.to-do-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.to-do-text {
+  flex-grow: 1;
+}
+
+.btn-remove {
+  color: white;
+  padding: 0.55em .8em;
+  margin-top: 20px;
+  background-color: #b8555e;
+  cursor: pointer;
+  
+}
+.btn-remove:hover {
+  background-color:  #eb7f88;
+}

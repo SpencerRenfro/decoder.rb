@@ -1,0 +1,9 @@
+h1{
+  /* font-weight: bold; */
+  color: white;
+}
+
+.flex-head {
+  display: flex;
+  justify-content: center;
+}
