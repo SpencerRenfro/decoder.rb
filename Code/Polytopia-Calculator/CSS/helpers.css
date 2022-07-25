@@ -1,0 +1,19 @@
+.d-flex {
+    display: flex;
+}
+
+.w-100 {    
+    width: 100%;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.image-size{
+    max-height: 30px;
+}
